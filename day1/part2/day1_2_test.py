@@ -1,6 +1,6 @@
 import unittest
 
-from day2 import fuelRequired
+from day1_2 import fuelRequired
 
 class fuelRequiredTest(unittest.TestCase):
     def test_mass_0(self):
@@ -24,7 +24,7 @@ class fuelRequiredTest(unittest.TestCase):
     def test_mass_100756(self):
         self.assertEqual(fuelRequired("100756"), 50346)
 
-from day2 import totalFuelFromFile
+from day1_2 import totalFuelFromFile
 
 class totalFuelTest(unittest.TestCase):
     def test_file_1(self):
